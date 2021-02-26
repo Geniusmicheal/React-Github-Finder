@@ -24,12 +24,12 @@ const App = () => {
                   
                   <div className="container">
                      <Alert/>
-                     {/* <Switch> */}
+                     <Switch>
                         <Route exact path='/' component={Home} />
                         <Route exact path='/about' component={About} />
                         <Route exact path='/user/:login' component= {Singleuser} />
                         <Route component={Notfound} />
-                     {/* </Switch> */}
+                     </Switch>
 
                   </div>
                </div>
